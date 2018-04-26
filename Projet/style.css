@@ -1,0 +1,249 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+ul,ol
+{
+    list-style: none ;
+}
+body
+{
+    background: #bfbfbf url('images/background.jpg') repeat-x; 
+    font-family: Arial, sans-serif;
+}
+header
+{
+    padding: 30px 0;
+}
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#main-menu ul
+{
+    width: 3780px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top:  148px;
+}
+#main-menu ul li
+{
+    float: left;
+    width: 140px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+
+}
+.bw
+{
+    position: absolute;
+    left: 0px;
+    width: 176px;
+    height: 500px;
+    cursor: pointer;
+    background: url('images/bw-image.png') no-repeat;
+    opacity: 0.7;
+}
+.color
+{
+    position: absolute;
+    left: 176px;
+    width: 176px;
+    height: 500px;
+    cursor: pointer;
+    background: url('images/color-image.png') no-repeat;
+}
+#part2 div
+{
+    background-position: -176px 0px;
+}
+#part3 div
+{
+    background-position: -350px 0px;
+}
+#part4 div
+{
+    background-position: -526px 0px;
+}
+#part5 div
+{
+    background-position: -700px 0px;
+}
+#part6 div
+{
+    background-position: -876px 0px;
+}
+#part7 div
+{
+    background-position: -1052px 0px;
+}
+#part8 div
+{
+    background-position: -1228px 0px;
+}
+#part9 div
+{
+    background-position: -1404px 0px;
+}
+#part10 div
+{
+    background-position: -1580px 0px;
+}
+#part11 div
+{
+    background-position: -1756px 0px;
+}
+#part12 div
+{
+    background-position: -1932px 0px;
+}
+#part13 div
+{
+    background-position: -2108px 0px;
+}
+#part14 div
+{
+    background-position: -2284px 0px;
+}
+#part15 div
+{
+    background-position: -2460px 0px;
+}
+#part16 div
+{
+    background-position: -2636px 0px;
+}
+#part17 div
+{
+    background-position: -2812px 0px;
+}
+#part18 div
+{
+    background-position: -2988px 0px;
+}
+#part19 div
+{
+    background-position: -3164px 0px;
+}
+#part20 div
+{
+    background-position: -3340px 0px;
+}
+#part21 div
+{
+    background-position: -3516px 0px;
+}
+#part22 div
+{
+    background-position: -3692px 0px;
+}
+#part23 div
+{
+    background-position: -3868px 0px;
+}
+#part24 div
+{
+    background-position: -4042px 0px;
+}
+#part25 div
+{
+    background-position: -4220px 0px;
+}
+.description
+{
+    position: absolute;
+    left: 176px;
+    width: 210px;
+    height: 460px;
+    padding: 20px;
+    background: #fff;
+}
+.description h2
+{
+    padding-top: 20px;
+    font-size: 28px;
+    font-family: 'Limelight', sans-serif;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+
+}
+.description h3
+{
+    margin-top:30px;
+    padding: 10px;
+    font-size: 26px;
+    font-family: 'Lobster', sans-serif;
+    background: #d70000;
+    color:#fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+
+}
+.description p
+{
+    padding-top: 35px;
+    font-size: 19px;
+    font-family: 'Lobster', sans-serif;
+    color:#000;
+    text-align: center;
+}
+
+#buttons-menu
+{
+    float:left;
+    width:100%;
+    padding: 170px 0 50px 0;
+}
+#buttons-menu ul
+{
+    float:left;
+    position: relative;
+    left: 50%;
+    text-align: center;
+}
+.button
+{
+    float:left;
+    width: 150px;
+    margin-left: 30px;
+    padding: 10px 0;
+    position: relative;
+    right: 50%;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    color:#fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.75);
+    background: #333;
+    border: 2px solid #b70000;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.hovered
+{
+    background: #b70000;
+    border: 2px solid #333;
+    font-size: 24px;
+}
+a{
+	padding-top: 35px;
+    font-size: 22px;
+    font-family: 'Lobster', sans-serif;
+    color:#ffffff;
+    text-align: center;
+}
+.audio{
+	width: 200px;
+}
